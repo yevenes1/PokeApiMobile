@@ -16,7 +16,7 @@ const SignUp = () => {
     }
 
     return (
-        <View style={{ justifyContent: 'center', alignItems: 'center' }}>
+        <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>r
             <Text>Email:</Text>
             <TextInput
                 value={email}
